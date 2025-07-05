@@ -460,6 +460,100 @@ $$
 layout: pageBar
 ---
 
+# Connnecting the Three-body and Two-body Models
+
+- The unit operator in this three-body model space can be expressed as:
+
+$$
+\mathbb{1} = \sum_{\alpha} \int R^{2} dR \left|\phi_{np}^{0} R \alpha\right\rangle \left\langle \phi_{np}^{0} R \alpha\right| + (2\pi)^{-3} \sum_{\alpha} \int R^{2} dR \int d\vec{k} \left|\phi_{np}^{\vec{k}(+)} R \alpha\right\rangle \left\langle \phi_{np}^{\vec{k}(+)} R \alpha\right|
+$$
+
+- The continuum states can be discretized
+
+$$
+\mathbb{1} \approx \sum_{\alpha n} \int R^{2} dR \left|\phi_{np}^{n} R \alpha\right\rangle \left\langle \phi_{np}^{n} R \alpha\right|
+$$
+
+- One can define the projection operators $P$ and $Q$ as follows:
+
+$$
+\begin{aligned}
+P &= \sum_{\alpha_0} \int R^{2} dR \left|\phi_{np}^{0} R \alpha_0\right\rangle \left\langle \phi_{np}^{0} R \alpha_0\right| \\
+Q &= \sum_{n > 0} \sum_{\alpha} \int R^{2} dR \left|\phi_{np}^{n} R \alpha\right\rangle \left\langle \phi_{np}^{n} R \alpha\right|
+\end{aligned}
+$$
+
+- These operators have the properties $P^2 = P$, $Q^2 = Q$, $PQ = 0$, and $P + Q = 1$.
+
+---
+layout: pageBar
+---
+
+# Connnecting the Three-body and Two-body Models
+
+- By projecting onto the ground state and bin states of the deuteron, the Schrödinger equation for the three-body scattering state is given by:
+
+$$
+\begin{aligned}
+(E - PHP) \left|\varphi_{P}^{(+)}\right\rangle - PHQ \left|\varphi_{Q}^{(+)}\right\rangle &= 0 \\
+(E - QHQ) \left|\varphi_{Q}^{(+)}\right\rangle - QHP \left|\varphi_{P}^{(+)}\right\rangle &= 0
+\end{aligned}
+$$
+
+- From the second equation, we obtain:
+
+$$
+\left|\varphi_{Q}^{(+)}\right\rangle = \frac{1}{E + i\varepsilon - QHQ} QHP \left|\varphi_{P}^{(+)}\right\rangle
+$$
+
+- Substituting this expression into the first equation, we derive the equation for the ground state component of the three-body scattering states:
+
+$$
+\begin{aligned}
+(E - PHP) \left|\varphi_{P}^{(+)}\right\rangle - PHQ \frac{1}{E + i\varepsilon - QHQ} QHP \left|\varphi_{P}^{(+)}\right\rangle = 0 \\
+H_{\text{eff}} = PHP + PHQ \frac{1}{E + i\varepsilon - QHQ} QHP
+\end{aligned}
+$$
+
+- This formulation provides the effective Hamiltonian $H_{\text{eff}}$ for the system, capturing the interactions within the model space. 
+
+---
+layout: pageBar
+---
+
+# Connnecting the Three-body and Two-body Models
+
+- The term of $PHQ \frac{1}{E + i\varepsilon - QHQ} QHP$ for the reaction of $d$+$^{93}$Nb at $E_d=25.5$ MeV
+
+<div class="flex justify-center mt-8">
+  <div class="bg-white rounded-xl shadow-xl p-8 max-w-5xl">
+    <h3 class="text-2xl font-bold text-center mb-6">Effective potential of d+93Nb</h3>
+    <img src="/pics/heatmap.gif" alt="Process animation" class="w-full h-96 object-contain rounded-lg">
+    <!-- max-w-5xl, increased padding p-8, larger title text-2xl, h-96 -->
+  </div>
+</div>
+
+---
+layout: pageBar
+---
+
+# Connnecting the Three-body and Two-body Models
+
+- Compare the CDCC results with effective potential results
+
+<div class="flex justify-center mt-8">
+  <div class="bg-white rounded-xl shadow-xl p-8 max-w-6xl">
+    <!-- <h3 class="text-2xl font-bold text-center mb-6">Effective potential of d+93Nb</h3> -->
+    <img src="/pics/cdcc_vs_pot.jpeg" alt="Process animation" class="w-full h-100 object-contain rounded-lg">
+    <!-- max-w-5xl, increased padding p-8, larger title text-2xl, h-96 -->
+  </div>
+</div>
+
+---
+layout: pageBar
+---
+
+
 # Breakup reactions of weakly bound projectiles
 Exclusive and inclusive breakup reactions
 

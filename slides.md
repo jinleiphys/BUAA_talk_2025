@@ -570,7 +570,7 @@ layout: pageBar
 ---
 
 # Application of the IAV model for deuteron breakup reactions
-A new computer code, **S**cattering **M**odel of **O**ptical **O**perator **Th**eory for **I**chimura-Austern-Vincent **E**quations (**SMOOTHIE**), has been developed to compute the nonelastic breakup cross sections.
+A new computer code, **S**cattering **M**odel of **O**ptical **O**perator **Th**eory for **I**chimura-Austern-Vincent **E**quations (**SMOOTHIE**), has been developed to compute the nonelastic breakup cross sections. <a href=https://smoothie.fewbody.com>smoothie.fewbody.com</a>
 
 The IAV model aligns well with the semi-classical Glauber model with quantum $S$-matrix predictions, both matching experimental data effectively. 
 

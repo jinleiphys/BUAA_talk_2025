@@ -123,11 +123,44 @@ Take the use of effective interactions
 
 - **Wave function separation:**
   $$\psi_{\ell}(r)=e^{i \sigma_{\ell}} F_{\ell}(\eta, k r)+\psi_{\ell}^{\mathrm{sc}}(r)$$
+
+- The outgoing wave function $\psi_l^{sc}(r)$ is not square-integrable, and its boundary condition satisfies:
+$$
+\psi_l^{sc}(r)\to_{r\to \infty} kf_l(k)h_l^{(+)}(kr)
+$$
 </v-click>
+
+
+
+
+
+---
+layout: pageBar
+---
+
+# Modeling the Elastic Scattering in two-body model 
+Take the use of effective interactions
+
+- Applied to the outgoing spherical wave, we have:
+$$
+\psi_l^{sc,\theta} \to_{r\to \infty} e^{i\theta/2} k f_l(k)i^{-l}e^{ikr\cos\theta-kr\sin\theta}
+$$
+
 <v-click> 
 
 - **Complex scaling transformation:**
-$$\left[E-H^\theta(r)\right] \psi_{\ell}^{\mathrm{sc}, \theta}(r)=e^{i \theta / 2} e^{i \sigma_{\ell}} \tilde{U}_N\left(r e^{i \theta}\right) F_{\ell}\left(\eta, k r e^{i \theta}\right)$$
+$$
+\left[E-H^\theta(r)\right] \psi_{\ell}^{\mathrm{sc}, \theta}(r)=e^{i \theta / 2} e^{i \sigma_{\ell}} \tilde{U}_N\left(r e^{i \theta}\right) F_{\ell}\left(\eta, k r e^{i \theta}\right)
+$$
+</v-click>
+
+<v-click>
+
+- **Wave function expansion:**
+  $$\psi_{\ell}^{\mathrm{sc}, \theta}(r)=\sum_{j=1}^{N_r} c_j g_j(r)$$
+
+- **Linear equation system:**
+  $$\sum_{j=1}^{N_r}\left[E \mathbf{N}_{ij}-\mathbf{H}_{ij}^\theta\right] c_j= b_i^\theta$$
 </v-click>
 
 ---
@@ -136,24 +169,41 @@ layout: pageBar
 
 # Modeling the Elastic Scattering in two-body model 
 Take the use of effective interactions
-- **Wave function expansion:**
-  $$\psi_{\ell}^{\mathrm{sc}, \theta}(r)=\sum_{j=1}^{N_r} c_j g_j(r)$$
-
-- **Linear equation system:**
-  $$\sum_{j=1}^{N_r}\left[E \mathbf{N}_{ij}-\mathbf{H}_{ij}^\theta\right] c_j= b_i^\theta$$
 
 - **Results:**
-<div class="flex justify-center gap-6 mt-8">
+<div class="flex justify-center gap-8 mt-12">
   <v-click>
-    <img src="/pics/d93Nb_el.png" alt="d + 93Nb scattering" class="w-72 h-48 object-contain">
+    <div class="group cursor-pointer">
+      <div class="transform group-hover:scale-210 transition-all duration-500 group-hover:-translate-y-2">
+        <img src="/pics/d93Nb_el.png" alt="d + 93Nb scattering" 
+             class="w-80 h-60 object-contain rounded-xl shadow-md group-hover:shadow-2xl">
+      </div>
+      <p class="text-center mt-4 text-gray-700 group-hover:text-blue-600 transition-colors duration-300">
+        d + 93Nb scattering
+      </p>
+    </div>
   </v-click>
-  
   <v-click>
-    <img src="/pics/6Li208Pb.png" alt="6Li + 208Pb scattering" class="w-72 h-48 object-contain">
+    <div class="group cursor-pointer">
+      <div class="transform group-hover:scale-210 transition-all duration-500 group-hover:-translate-y-2">
+        <img src="/pics/6Li208Pb.png" alt="6Li + 208Pb scattering" 
+             class="w-80 h-60 object-contain rounded-xl shadow-md group-hover:shadow-2xl">
+      </div>
+      <p class="text-center mt-4 text-gray-700 group-hover:text-green-600 transition-colors duration-300">
+        6Li + 208Pb scattering
+      </p>
+    </div>
   </v-click>
-  
   <v-click>
-    <img src="/pics/n56Fe.png" alt="n + 56Fe scattering" class="w-72 h-48 object-contain">
+    <div class="group cursor-pointer">
+      <div class="transform group-hover:scale-210 transition-all duration-500 group-hover:-translate-y-2">
+        <img src="/pics/n56Fe.png" alt="n + 56Fe scattering" 
+             class="w-80 h-60 object-contain rounded-xl shadow-md group-hover:shadow-2xl">
+      </div>
+      <p class="text-center mt-4 text-gray-700 group-hover:text-red-600 transition-colors duration-300">
+        n + 56Fe scattering
+      </p>
+    </div>
   </v-click>
 </div>
 

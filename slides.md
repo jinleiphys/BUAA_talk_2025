@@ -377,7 +377,10 @@ $$U^{0j}=G_0^{-1}(E)+\sum_k \color{#FF2600}{t_k}\color{#000000}{G_0 U^{kj}}$$
 Observables: $\sigma_{i\gets j} \propto |\langle \Phi_i|U^{ij}|\Phi_j \rangle |^2$
 </v-click>
 
-More details can be found in: <span style="color:#0076BA;">L. Hlophe, **JL** et al, Phys. Rev. C 96, 064003 (2017), Phys. Rev. C 100, 034609 (2019), and **JL**, L. Hlophe et al, Phys. Rev. C 98, 051001 (2018)</span>
+<div class="text-xs leading-tight space-y-1 mt-2">
+More details can be found in: <span style="color:#0076BA;">L. Hlophe, **JL** et al, Phys. Rev. C 96, 064003 (2017), Phys. Rev. C 100, 034609 (2019), and **JL**, L. Hlophe et al, Phys. Rev. C 98, 051001 (2018)</span>.  
+<p>A computed code written in Fortran is developed, Three-body Research Integrator for Numerical Investigation of Theoretical Yields (TRINITY)</p>
+</div>
 
 </div>
 </div>

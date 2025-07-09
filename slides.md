@@ -450,7 +450,7 @@ $$E|\Psi\rangle =H |\Psi\rangle   \ \ \ \ \ \color{#FF2600}{\to}   \ \ \ \ \ \co
 <v-click>
 
 $$
-\left(E-\varepsilon_n-T_{a A}(R \alpha)\right) \langle\phi_{b x}^n R \alpha| \Psi^{j_{\mathrm{jin}}(+)} \rangle - \sum_{\alpha^{\prime}n'} \langle \phi_{b x}^n R \alpha| U_{pA}+U_{nA}| \phi_{b x}^{n'} R \alpha' \rangle \langle\phi_{b x}^{n^{\prime}} R \alpha^{\prime}| \Psi^{j_{\mathrm{in}}(+)} \rangle = 0,
+\left(E-\varepsilon_n-T_{a A}(R \alpha)\right) \langle\phi_{b x}^n R \alpha| \Psi^{j_{\mathrm{in}}(+)} \rangle - \sum_{\alpha^{\prime}n'} \langle \phi_{b x}^n R \alpha| U_{pA}+U_{nA}| \phi_{b x}^{n'} R \alpha' \rangle \langle\phi_{b x}^{n^{\prime}} R \alpha^{\prime}| \Psi^{j_{\mathrm{in}}(+)} \rangle = 0,
 $$
 </v-click>
 
